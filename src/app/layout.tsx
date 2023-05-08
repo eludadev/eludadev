@@ -1,9 +1,7 @@
 import '~/globals.css';
+import { i18n } from '~/i18n';
 
-import { NextIntlClientProvider, useLocale } from 'next-intl';
-import { createTranslator } from 'next-intl';
 import localFont from 'next/font/local';
-import { notFound } from 'next/navigation';
 
 // Font files can be colocated inside of `app`
 const font = localFont({
@@ -48,54 +46,18 @@ const font = localFont({
   variable: '--font-sfui',
 });
 
-export async function generateMetadata({
-  params: { locale },
-}: {
-  params: { locale: string };
-}) {
-  const messages = (await import(`~~/messages/${locale}.json`)).default;
+export const metadata = {
+  title: i18n.t('title'),
+};
 
-  // You can use the core (non-React) APIs when you
-  // have to use next-intl outside of components.
-  const t = createTranslator({ locale, messages });
-
-  return {
-    title: t('RootLayout.title'),
-  };
-}
-
-export function generateStaticParams() {
-  return [{ locale: 'en' }, { locale: 'fr' }];
-}
-
-export default async function RootLayout({
+export default function RootLayout({
   children,
-  params,
 }: {
-  children: React.ReactNode;
-  params: { locale?: string };
-}) {
-  let messages;
-  try {
-    messages = (await import(`~~/messages/${params.locale}.json`)).default;
-  } catch (error) {
-    notFound();
-  }
-
-  const locale = useLocale();
-
-  // Show a 404 error if the user requests an unknown locale
-  if (params.locale !== locale) {
-    notFound();
-  }
-
+  children: JSX.Element;
+}): JSX.Element {
   return (
-    <html lang={locale}>
-      <body className={font.className}>
-        <NextIntlClientProvider locale={locale} messages={messages}>
-          {children}
-        </NextIntlClientProvider>
-      </body>
+    <html lang="en">
+      <body className={font.className}>{children}</body>
     </html>
   );
 }

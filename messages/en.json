@@ -1,8 +1,80 @@
 {
-  "RootLayout": {
-    "title": "Younes Laaroussi"
+  "title": "Younes Laaroussi: Fullstack/Mobile Engineer",
+  "role": "Frontend\nDeveloper.",
+  "tagline": "I like to craft solid and scalable frontend products with great user experiences.",
+  "descriptions": [
+    "Highly skilled at progressive enhancement, design systems & UI Engineering.",
+    "Proven experience building successful products for clients across several countries."
+  ],
+  "home-button": "Logo, go to homepage.",
+  "headshot-alt": "Headshot of Younes Laaroussi",
+  "design": {
+    "title": "Design",
+    "description": "I'm probably not the typical designer positioned behind an Illustrator artboard adjusting pixels, but I design. Immersed in stylesheets tweaking font sizes and contemplating layouts is where you'll find me (~_^). I'm committed to creating fluent user experiences while staying fashionable."
   },
-  "Index": {
-    "title": "Hello world!"
-  }
+  "engineering": {
+    "title": "Engineering",
+    "description": "In building JavaScript applications, I'm equipped with just the right tools, and can absolutely function independently of them to deliver fast, resilient solutions optimized for scale — performance and scalabilty are priorities on my radar."
+  },
+  "story": {
+    "title": "Over the years,",
+    "content": "I've built products for companies and businesses around the globe ranging from marketing websites to complex solutions and enterprise apps with focus on fast, elegant and accessible user experiences.\n\nCurrently, I work at Shopify as a Senior Frontend Engineer crafting thoughtful and inclusive experiences that adhere to web standards for over 3 million merchants across the world.\n\nBefore now, I was Principal Frontend Engineer at hellotax, where I worked on a suite of tools and services tailored towards automated VAT compliance for multi-channel sellers in Europe.\n\nPrior to hellotax, I was Senior frontend engineering consultant with Pixel2HTML, building JavaScript applications and interfaces for orgs and individuals.\n\nI once also led the frontend team at Conectar, an e-learning startup through building multiple React applications into a single robust learning platform."
+  },
+  "work-link": {
+    "title": "I build & design stuff",
+    "description": "Open source projects, web apps and experimentals.",
+    "link": "See my work"
+  },
+  "blog-link": {
+    "title": "I write, sometimes",
+    "description": "About design, frontend dev, learning and life.",
+    "link": "See my articles"
+  },
+  "contact": {
+    "title": "Send me a message!",
+    "description": "Got a question or proposal, or just want to say hello? Go ahead.",
+    "name": {
+      "title": "Your name",
+      "placeholder": "Enter your name"
+    },
+    "email": {
+      "title": "Email address",
+      "placeholder": "Enter your email address"
+    },
+    "message": {
+      "title": "Your message",
+      "placeholder": "Hi, I think we need a design system for our products at Company X. How soon can you hop on to discuss this?"
+    },
+    "submit": "Shoot",
+    "link": "https://formspree.io/f/mvonljaq"
+  },
+  "links": {
+    "title": "Say hello",
+    "email": {
+      "title": "Email",
+      "display": "hello@eluda.dev",
+      "value": "mailto:hello@eluda.dev"
+    },
+    "telegram": {
+      "title": "Telegram link",
+      "display": "t.me/eludadev",
+      "value": "https://t.me/eludadev"
+    },
+    "work": {
+      "title": "My Work",
+      "display": "My Work",
+      "value": ""
+    },
+    "shelf": {
+      "title": "My Shelf",
+      "display": "My Shelf",
+      "value": ""
+    },
+    "resume": {
+      "title": "My Résumé",
+      "display": "My Résumé",
+      "value": ""
+    }
+  },
+  "footer": "© Olaolu Olawuyi 2023"
 }

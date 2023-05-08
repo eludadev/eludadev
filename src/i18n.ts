@@ -1,5 +1,5 @@
-import { getRequestConfig } from 'next-intl/server';
+import { I18n } from 'i18n-js';
 
-export default getRequestConfig(async ({ locale }) => ({
-  messages: (await import(`~~/messages/${locale}.json`)).default,
-}));
+import translations from '~~/messages/en.json';
+
+export const i18n = new I18n({ en: translations });
