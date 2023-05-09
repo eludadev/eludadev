@@ -26,12 +26,16 @@ export default function MainMenu(): JSX.Element {
     >
       <article className="mt-28 pl-16 lg:mt-0">
         <a
+          target="_blank"
+          rel="noreferrer noopener"
           href={i18n.t('links.work.value')}
           aria-label={i18n.t('links.work.title')}
         >
           <MenuLink>{i18n.t('links.work.display')}</MenuLink>
         </a>
         <a
+          target="_blank"
+          rel="noreferrer noopener"
           href={i18n.t('links.shelf.value')}
           aria-label={i18n.t('links.shelf.title')}
         >
@@ -49,12 +53,16 @@ export default function MainMenu(): JSX.Element {
           {i18n.t('links.title')}
         </h2>
         <a
+          rel="noreferrer noopener"
+          target="_blank"
           href={i18n.t('links.email.value')}
           aria-label={i18n.t('links.email.title')}
         >
           <MenuLink>{i18n.t('links.email.display')}</MenuLink>
         </a>
         <a
+          rel="noreferrer noopener"
+          target="_blank"
           href={i18n.t('links.telegram.value')}
           aria-label={i18n.t('links.telegram.title')}
         >
@@ -63,12 +71,16 @@ export default function MainMenu(): JSX.Element {
       </article>
       <article className="pl-16 flex gap-8 mt-8">
         <a
+          rel="noreferrer noopener"
+          target="_blank"
           href={i18n.t('links.github.value')}
           aria-label={i18n.t('links.github.title')}
         >
           <MenuLink>{i18n.t('links.github.display')}</MenuLink>
         </a>
         <a
+          rel="noreferrer noopener"
+          target="_blank"
           href={i18n.t('links.linkedin.value')}
           aria-label={i18n.t('links.linkedin.title')}
         >

@@ -23,12 +23,14 @@
   "work-link": {
     "title": "I build & design stuff",
     "description": "Open source projects, web apps and experimentals.",
-    "link": "See my work"
+    "link": "See my work",
+    "value": "https://work.eluda.dev"
   },
   "blog-link": {
     "title": "I write, sometimes",
     "description": "About design, development, learning and life.",
-    "link": "See my articles"
+    "link": "See my articles",
+    "value": "https://shelf.eluda.dev"
   },
   "contact": {
     "title": "Send me a message!",

@@ -23,7 +23,7 @@ export default function Home(): JSX.Element {
           <LinkCard.Description>
             {i18n.t('work-link.description')}
           </LinkCard.Description>
-          <InternalLink className="mt-12">
+          <InternalLink className="mt-12" href={i18n.t('work-link.value')}>
             {i18n.t('work-link.link')}
           </InternalLink>
         </LinkCard>
@@ -32,7 +32,7 @@ export default function Home(): JSX.Element {
           <LinkCard.Description>
             {i18n.t('blog-link.description')}
           </LinkCard.Description>
-          <InternalLink className="mt-12">
+          <InternalLink className="mt-12" href={i18n.t('blog-link.value')}>
             {i18n.t('blog-link.link')}
           </InternalLink>
         </LinkCard>
