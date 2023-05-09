@@ -9,6 +9,8 @@ import { i18n } from '~/i18n';
 
 import { useContext } from 'react';
 
+import Link from 'next/link';
+
 export default function MainMenu(): JSX.Element {
   const { isMenuToggled } = useContext(NavigationContext);
   useLockBody(isMenuToggled);
@@ -35,12 +37,14 @@ export default function MainMenu(): JSX.Element {
         >
           {i18n.t('links.shelf.display')}
         </MenuLink>
-        <MenuLink
-          href={i18n.t('links.resume.value')}
-          title={i18n.t('links.resume.title')}
-        >
-          {i18n.t('links.resume.display')}
-        </MenuLink>
+        <Link href="/resume">
+          <MenuLink
+            href={i18n.t('links.resume.value')}
+            title={i18n.t('links.resume.title')}
+          >
+            {i18n.t('links.resume.display')}
+          </MenuLink>
+        </Link>
       </article>
       <article className="mt-14 pl-16 xl:mt-">
         <h2 className="text-xl font-light uppercase text-primary-300 mb-2">

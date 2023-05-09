@@ -1,8 +1,5 @@
 import clsx from 'clsx';
 
-import TopNav from '~/components/App/TopNav';
-import MainMenu from '~/components/Menu/MainMenu';
-import { NavigationProvider } from '~/context/Navigation';
 import '~/globals.css';
 import { i18n } from '~/i18n';
 
@@ -63,11 +60,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={clsx(font.className, 'relative overflow-x-hidden')}>
-        <NavigationProvider>
-          <TopNav />
-          <div>{children}</div>
-          <MainMenu />
-        </NavigationProvider>
+        {children}
       </body>
     </html>
   );

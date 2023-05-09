@@ -2,7 +2,6 @@ import LinkCard from '~/components/Display/LinkCard';
 import ContactForm from '~/components/Forms/ContactForm';
 import ExternalLink from '~/components/Interactive/ExternalLink';
 import InternalLink from '~/components/Interactive/InternalLink';
-import MenuLink from '~/components/Interactive/MenuLink';
 import HeroSection from '~/components/Sections/HeroSection';
 import InfoSection from '~/components/Sections/InfoSection';
 import StorySection from '~/components/Sections/StorySection';

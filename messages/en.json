@@ -86,5 +86,57 @@
       "value": ""
     }
   },
-  "footer": "© Olaolu Olawuyi 2023"
+  "footer": "© Olaolu Olawuyi 2023",
+  "resume": {
+    "name": "Olaolu Olawuyi",
+    "title": "Expert Frontend developer and UX Engineer.",
+    "subtitle": "Engineer valued for driving high-performance accessible web experiences. I design quality, user-friendly and scalable products regardless of stack.",
+    "experience": {
+      "title": "Experience",
+      "subtitle": "I’ve worked on a handful of web projects over the years, some of which were for the following organizations:",
+      "jobs": [
+        {
+          "company": "Shopify",
+          "position": "Senior Frontend Engineer",
+          "duration": "May 2020 - Present",
+          "description": "Shaping the future of commerce and entrepreneurship – building and advocating for inclusive and thoughtful experiences for over three million merchants across the globe.",
+          "milestones": [
+            "Pioneering initiatives around the future of onboarding, signup and developing technical vision for them",
+            "Identified a gap in my team’s deployment workflow and built a solution that reduced the time required for each deployment from over 40 minutes to less than 6 minutes, which restores almost 300 hours of developer productivity every year",
+            "Collaborating with UX designers and researchers to inform the direction of products we craft",
+            "First-hand involvement in early-stage product and UX thinking and rapid prototyping",
+            "Conducting and monitoring several strategic experiments, refining experiences based on resulting metrics and learnings",
+            "Participating and incorporating learnings from real merchant interviews and research sessions",
+            "Identifying gaps around the org-wide frontend infrastructure, drafting proposals and implementing solutions",
+            "Mentoring engineers within and outside my team on best practices, performance and advanced patterns",
+            "Providing guidance around product accessibility and inclusivity across the org",
+            "Built an OAuth 2.0 compliant client-side library for our Identity provider across Shopify"
+          ]
+        },
+        {
+          "company": "MOONDA",
+          "position": "Senior Frontend Engineer",
+          "duration": "Nov 2018 - Jan 2019",
+          "description": "I worked with MOONDA via Pixel2HTML to create the web experience for John Deere's ATU 300 product.",
+          "milestones": [
+            "Built a contest application from the ground up using React which enabled users of the product from all around the globe to post photos and share reviews about the product.",
+            "Designed and implemented a cross-browser, IE 11 compatible marketing site for the product.",
+            "Implemented internationalization on the website with support for over 40 languages.",
+            "Implemented automatic locale detection (with proper redirection based on that) and locale-specific content filtering."
+          ]
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projects",
+      "subtitle": [
+        "Links to some of my work can be found on",
+        {
+          "text": "olaolu.dev/work",
+          "link": "https://olaolu.dev/work"
+        },
+        "and details can be provided upon request via a scheduled demo call."
+      ]
+    }
+  }
 }
