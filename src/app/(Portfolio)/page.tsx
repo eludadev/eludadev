@@ -7,6 +7,8 @@ import InfoSection from '~/components/Sections/InfoSection';
 import StorySection from '~/components/Sections/StorySection';
 import { i18n } from '~/i18n';
 
+import Link from 'next/link';
+
 export default function Home(): JSX.Element {
   return (
     <>
@@ -77,12 +79,13 @@ export default function Home(): JSX.Element {
               >
                 {i18n.t('links.shelf.display')}
               </ExternalLink>
-              <ExternalLink
-                href={i18n.t('links.resume.value')}
-                title={i18n.t('links.resume.title')}
+              <Link
+                className="font-light mt-2 block lg:text-xl text-secondary-300"
+                href="/resume"
+                aria-label={i18n.t('links.resume.title')}
               >
                 {i18n.t('links.resume.display')}
-              </ExternalLink>
+              </Link>
             </article>
           </div>
           <footer className="font-light block w-full lg:flex lg:justify-between text-secondary-300 mt-32 pt-12 border-t-2 border-primary-300">
