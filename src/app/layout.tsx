@@ -62,7 +62,7 @@ export default function RootLayout({
 }): JSX.Element {
   return (
     <html lang="en">
-      <body className={clsx(font.className, 'relative')}>
+      <body className={clsx(font.className, 'relative overflow-x-hidden')}>
         <NavigationProvider>
           <TopNav />
           <div>{children}</div>
