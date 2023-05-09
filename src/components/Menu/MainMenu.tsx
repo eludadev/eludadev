@@ -16,13 +16,13 @@ export default function MainMenu(): JSX.Element {
   return (
     <menu
       className={clsx(
-        'w-full min-h-full bg-white z-10 absolute top-0 transition-opacity ease-out-cubic',
+        'w-full min-h-full bg-white lg:min-h-0 lg:py-8 lg:top-14 lg:w-fit lg:pr-24 lg:m-8 lg:shadow-sm lg:right-0 z-10 absolute top-0 transition-opacity ease-out-cubic',
         isMenuToggled
           ? 'opacity-100 pointer-events-auto'
           : 'opacity-0 pointer-events-none',
       )}
     >
-      <article className="mt-28 pl-16">
+      <article className="mt-28 pl-16 lg:mt-0">
         <MenuLink
           href={i18n.t('links.work.value')}
           title={i18n.t('links.work.title')}
@@ -42,7 +42,7 @@ export default function MainMenu(): JSX.Element {
           {i18n.t('links.resume.display')}
         </MenuLink>
       </article>
-      <article className="mt-14 pl-16">
+      <article className="mt-14 pl-16 xl:mt-">
         <h2 className="text-xl font-light uppercase text-primary-300 mb-2">
           {i18n.t('links.title')}
         </h2>
