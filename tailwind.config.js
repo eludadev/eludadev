@@ -16,6 +16,9 @@ module.exports = {
         primary: colors.indigo,
         secondary: colors.lime,
       },
+      transitionTimingFunction: {
+        'out-cubic': 'cubic-bezier(0.33, 1, 0.68, 1)',
+      },
     },
   },
   plugins: [],

@@ -1,9 +1,27 @@
+'use client';
+
+import clsx from 'clsx';
+
 import MenuLink from '~/components/Interactive/MenuLink';
+import { NavigationContext } from '~/context/Navigation';
+import useLockBody from '~/hooks/useLockBody';
 import { i18n } from '~/i18n';
 
+import { useContext } from 'react';
+
 export default function MainMenu(): JSX.Element {
+  const { isMenuToggled } = useContext(NavigationContext);
+  useLockBody(isMenuToggled);
+
   return (
-    <menu className="w-full min-h-full bg-white z-10 absolute top-0">
+    <menu
+      className={clsx(
+        'w-full min-h-full bg-white z-10 absolute top-0 transition-opacity ease-out-cubic',
+        isMenuToggled
+          ? 'opacity-100 pointer-events-auto'
+          : 'opacity-0 pointer-events-none',
+      )}
+    >
       <article className="mt-28 pl-16">
         <MenuLink
           href={i18n.t('links.work.value')}
