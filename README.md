@@ -1,34 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Hi 👋, I'm Younes Laaroussi <img height="40" src="https://emoji.gg/assets/emoji/7333-parrotdance.gif"></h1>
+<h3 align="center">A passionate fullstack and mobile developer from Morocco</h3>
 
-## Getting Started
+- 💅 I **design** all my personal projects.
 
-First, run the development server:
+- 🔭 I’m currently working on **DeepShot**, an AI photo editing application.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- 🌱 My tech stack is **MongoDB, Express, React, and Node.** I also use GCP and Docker for deployments.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 👯 I’m looking to collaborate on **front-end and back-end projects**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 📫 How to reach me: **hello@eluda.dev**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- ⚡ What I like to do: **I like leaning, coding, marketing, and working on new projects.**
 
-## Learn More
+<h3 align="center">Connect with me:</h3>
+<div align="center">
 
-To learn more about Next.js, take a look at the following resources:
+[![image](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eludadev/)
+[![image](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/eludadev)
+[![image](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hello@eluda.dev)
+<a href="https://calendly.com/eludadev/30min" target="_blank">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnm5S2NWKYca7NtqPnjhejb1k7dwt-NsYDYTyvGUj-P_Pm4_79HHE7EZPbzvJgarpu_Q&usqp=CAU" alt="calendly" height="28"/>
+</a>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+</div>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<h3 align="center">Languages and Tools:</h3>
 
-## Deploy on Vercel
+<p align="center"> 
+  <a href="https://www.w3.org/html/" target="_blank"> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> 
+  </a>
+  <a href="https://www.w3schools.com/css/" target="_blank"> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> 
+  </a> 
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> 
+  </a> 
+  <a href="https://www.linux.org/" target="_blank"> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> 
+  </a> 
+  <a href="https://react.dev/" target="_blank"> 
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" height="40" alt="react" />
+  </a>
+   <a href="https://expressjs.com/" target="_blank"> 
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="40" height="40" alt="express" />
+  </a>
+   <a href="https://www.mongodb.com/" target="_blank"> 
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="40" height="40" alt="mongodb" />
+  </a>
+   <a href="https://developer.android.com/" target="_blank"> 
+     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" width="40" height="40" alt="android" />
+  </a>
+   <a href="https://developer.apple.com/" target="_blank"> 
+     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" width="40" height="40" alt="ios" />
+  </a>    
+   <a href="https://nestjs.com/" target="_blank"> 
+     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg" width="40" height="40" alt="nest" />
+  </a>    
+</p>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<p align= "center">
+  <img height= "150" src="https://github-readme-stats.vercel.app/api?username=eludadev&theme=react&show_icons=true&include_all_commits=true" />
+  <img height= "150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eludadev&theme=react&layout=compact" />
+</p>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+[eludadev](https://github.com/eludadev)
+
+Last Edited on: 09/05/2023
