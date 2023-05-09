@@ -1,13 +1,12 @@
 import ResumeExperience, {
   type Job,
 } from '~/components/Display/ResumeExperience';
-import EludaLogo from '~/components/Icons/EludaLogo';
 import { i18n } from '~/i18n';
 
 export default function ResumeDetails(): JSX.Element {
   return (
     <div>
-      <div className="mx-12 xl:mx-24">
+      <div className="mx-12 lg:mx-24">
         <header className="">
           <h1 className="text-6xl text-primary-600 font-extrabold">
             {i18n.t('resume.name')}
@@ -54,9 +53,6 @@ export default function ResumeDetails(): JSX.Element {
           </p>
         </section>
       </div>
-      <footer className="mt-24 text-primary-600 mx-12">
-        <EludaLogo />
-      </footer>
     </div>
   );
 }

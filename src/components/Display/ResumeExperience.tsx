@@ -9,7 +9,7 @@ export interface Job {
 export default function ResumeExperience({ job }: { job: Job }): JSX.Element {
   return (
     <article className="my-8">
-      <div className="flex justify-between sm:flex-row flex-col">
+      <div className="flex justify-between sm:flex-row flex-col items-center">
         <div className="flex items-center gap-2">
           <ResumeExperience.Title>{job.company}</ResumeExperience.Title>
           <span className="text-black/60 font-light text-lg">—</span>

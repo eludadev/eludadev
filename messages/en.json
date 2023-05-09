@@ -137,6 +137,57 @@
         },
         "and details can be provided upon request via a scheduled demo call."
       ]
+    },
+    "core-tech": {
+      "title": "Core Technologies:",
+      "items": [
+        "JavaScript",
+        "React",
+        "CSS-in-JS",
+        "TypeScript",
+        "Vue.js",
+        "Sass",
+        "Flux",
+        "ESNext",
+        "Flow",
+        "NodeJS",
+        "GraphQL",
+        "LessCSS",
+        "Next.js"
+      ]
+    },
+    "others": {
+      "title": "Others:",
+      "items": [
+        "Design Systems",
+        "E2E Testing",
+        "PWAs",
+        "Performance Optimization",
+        "Software Testing",
+        "SE Optimization",
+        "Progressive Enhancement",
+        "Accessibility auditing",
+        "Build Automation",
+        "Responsive Web Design",
+        "UX Design/Strategy"
+      ]
+    },
+    "profile": {
+      "website": {
+        "display": "eluda.dev",
+        "title": "Website",
+        "link": "https://eluda.dev"
+      },
+      "location": "Lagos, Nigeria",
+      "email": {
+        "display": "hello@eluda.dev",
+        "title": "Email address",
+        "link": "mailto:hello@eluda.dev"
+      }
+    },
+    "download": {
+      "link": "",
+      "title": "Download"
     }
   }
 }
