@@ -7,7 +7,7 @@ export default function HeroSection(): JSX.Element {
   return (
     <main>
       <div className="px-8">
-        <h1 className="text-4xl mt-16 font-extrabold px-8 text-secondary-300">
+        <h1 className="text-4xl pt-16 font-extrabold px-8 text-secondary-300">
           {i18n.t('role')}
         </h1>
         <p className="mt-5 text-white mb-24 px-8">{i18n.t('tagline')}</p>

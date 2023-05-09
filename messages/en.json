@@ -74,6 +74,16 @@
       "title": "My Résumé",
       "display": "My Résumé",
       "value": ""
+    },
+    "github": {
+      "title": "Github",
+      "display": "GH",
+      "value": ""
+    },
+    "linkedin": {
+      "title": "LinkedIn",
+      "display": "LN",
+      "value": ""
     }
   },
   "footer": "© Olaolu Olawuyi 2023"

@@ -1,18 +1,16 @@
-import TopNav from '~/components/App/TopNav';
 import LinkCard from '~/components/Display/LinkCard';
 import ContactForm from '~/components/Forms/ContactForm';
-import HeroSection from '~/components/HomeSections/HeroSection';
-import InfoSection from '~/components/HomeSections/InfoSection';
-import StorySection from '~/components/HomeSections/StorySection';
 import ExternalLink from '~/components/Interactive/ExternalLink';
 import InternalLink from '~/components/Interactive/InternalLink';
+import HeroSection from '~/components/Sections/HeroSection';
+import InfoSection from '~/components/Sections/InfoSection';
+import StorySection from '~/components/Sections/StorySection';
 import { i18n } from '~/i18n';
 
 export default function Home(): JSX.Element {
   return (
     <>
-      <section className="bg-primary-700 pt-8">
-        <TopNav />
+      <section className="bg-primary-700">
         <HeroSection />
       </section>
       <InfoSection />

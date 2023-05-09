@@ -1,3 +1,7 @@
+import clsx from 'clsx';
+
+import TopNav from '~/components/App/TopNav';
+import MainMenu from '~/components/Menu/MainMenu';
 import '~/globals.css';
 import { i18n } from '~/i18n';
 
@@ -57,7 +61,11 @@ export default function RootLayout({
 }): JSX.Element {
   return (
     <html lang="en">
-      <body className={font.className}>{children}</body>
+      <body className={clsx(font.className, 'relative')}>
+        <TopNav />
+        <div>{children}</div>
+        <MainMenu />
+      </body>
     </html>
   );
 }
