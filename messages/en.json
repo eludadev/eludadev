@@ -85,6 +85,11 @@
       "title": "LinkedIn",
       "display": "LN",
       "value": "https://www.linkedin.com/in/eludadev/"
+    },
+    "reddit": {
+      "title": "Reddit",
+      "display": "RD",
+      "value": "https://www.reddit.com/user/eludadev"
     }
   },
   "footer": "© Younes Laaroussi 2023",

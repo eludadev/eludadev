@@ -86,6 +86,14 @@ export default function MainMenu(): JSX.Element {
         >
           <MenuLink>{i18n.t('links.linkedin.display')}</MenuLink>
         </a>
+        <a
+          rel="noreferrer noopener"
+          target="_blank"
+          href={i18n.t('links.reddit.value')}
+          aria-label={i18n.t('links.reddit.title')}
+        >
+          <MenuLink>{i18n.t('links.reddit.display')}</MenuLink>
+        </a>
       </article>
     </menu>
   );

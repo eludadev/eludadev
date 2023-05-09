@@ -109,6 +109,15 @@ export default function Home(): JSX.Element {
               >
                 {i18n.t('links.linkedin.display')}
               </a>
+              <a
+                href={i18n.t('links.reddit.value')}
+                target="_blank"
+                rel="noreferrer noopener"
+                aria-label={i18n.t('links.reddit.title')}
+                className="font-normal block text-secondary-300 text-xl"
+              >
+                {i18n.t('links.reddit.display')}
+              </a>
             </article>
           </footer>
         </div>
