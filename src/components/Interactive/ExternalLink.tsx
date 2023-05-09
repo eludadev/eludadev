@@ -13,7 +13,7 @@ export default function ExternalLink({
       target="_blank"
       rel="noreferrer noopener"
       aria-label={title}
-      className="font-light mt-2 block text-secondary-300"
+      className="font-light mt-2 block lg:text-xl text-secondary-300"
     >
       {children}
     </a>

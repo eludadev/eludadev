@@ -13,23 +13,29 @@ export default function ContactForm(): JSX.Element {
   const [message, setMessage] = useState('');
 
   return (
-    <form className="py-16" method="POST" action={i18n.t('contact.link')}>
-      <FormInput
-        type="text"
-        placeholder={i18n.t('contact.name.placeholder')}
-        value={name}
-        onChange={(value) => setName(value)}
-      >
-        {i18n.t('contact.name.title')}
-      </FormInput>
-      <FormInput
-        type="email"
-        placeholder={i18n.t('contact.email.placeholder')}
-        value={email}
-        onChange={(value) => setEmail(value)}
-      >
-        {i18n.t('contact.email.title')}
-      </FormInput>
+    <form
+      className="py-16 lg:max-w-2xl lg:mx-auto"
+      method="POST"
+      action={i18n.t('contact.link')}
+    >
+      <div className="lg:grid lg:grid-cols-2 lg:gap-12">
+        <FormInput
+          type="text"
+          placeholder={i18n.t('contact.name.placeholder')}
+          value={name}
+          onChange={(value) => setName(value)}
+        >
+          {i18n.t('contact.name.title')}
+        </FormInput>
+        <FormInput
+          type="email"
+          placeholder={i18n.t('contact.email.placeholder')}
+          value={email}
+          onChange={(value) => setEmail(value)}
+        >
+          {i18n.t('contact.email.title')}
+        </FormInput>
+      </div>
       <MultilineInput
         type="message"
         placeholder={i18n.t('contact.message.placeholder')}
