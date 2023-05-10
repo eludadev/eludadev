@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import clsx from 'clsx';
 
 import '~/globals.css';
@@ -61,6 +62,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={clsx(font.className, 'relative overflow-x-hidden')}>
         {children}
+        <Analytics />
       </body>
     </html>
   );
