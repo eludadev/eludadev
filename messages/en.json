@@ -18,7 +18,7 @@
   },
   "story": {
     "title": "Over the years,",
-    "content": "Over the years, I have built a diverse portfolio of projects and articles that showcase my expertise as a developer. I created a Tailwind Components Library, which includes reusable components for building user interfaces. I also built a video chat application that utilized Twilio and TensorFlow for 3D mask effects, and wrote an article about it for Twilio that earned me $750.\n\nAdditionally, I built a Figma design quotes widget that scraped an existing API, and wrote an article about it for CSS Tricks that earned me $300. I also created a bikes API for Cyclic and wrote documentation for it. For CSS Tricks, I wrote another article about technical writing and received $300.\n\nOne of my most successful projects was a collection of 100 CSS buttons that earned over 3,000 stars on GitHub. I also created a collection of CSS cheatsheets that earned top place in the Reddit WebDev community. In 2021, I was recognized as the top writer of the year for Dev.to, a global developer community.\n\nI am experienced in building mobile applications using React Native and have built an app that generates new pictures using Dreambooth, which has its own API. Additionally, I built an eCommerce website using Medusa and Next.js with a backend hosted on GCP load balancers.\n\nCurrently, I am working on a mobile app called DeepShot that uses AI to generate and edit photographs. Lastly, I built an advanced input form for Vue.js, which has over 200 stars on GitHub. These projects and experiences have helped me become a well-rounded and experienced developer."
+    "content": "Over the years, I have built a diverse portfolio of projects and articles that showcase my expertise as a developer. I created a Tailwind Components Library, which includes reusable components for building user interfaces. I also built a video chat application that utilized Twilio and TensorFlow for 3D mask effects, and wrote an article about it for Twilio.\n\nAdditionally, I built a Figma design quotes widget that scraped an existing API, and wrote an article about it for CSS Tricks. I also created a bikes API for Cyclic and wrote documentation for it. For CSS Tricks, I wrote another article about technical writing.\n\nOne of my most successful projects was a collection of 100 CSS buttons that earned over 3,000 stars on GitHub. I also created a collection of CSS cheatsheets that earned top place in the Reddit WebDev community. In 2021, I was recognized as the top writer of the year for Dev.to, a global developer community.\n\nI am experienced in building mobile applications using React Native and have built an app that generates new pictures using Dreambooth, which has its own API. Additionally, I built an eCommerce website using Medusa and Next.js with a backend hosted on GCP load balancers.\n\nCurrently, I am working on a mobile app called DeepShot that uses AI to generate and edit photographs. Lastly, I built an advanced input form for Vue.js, which has over 200 stars on GitHub. These projects and experiences have helped me become a well-rounded and experienced developer."
   },
   "work-link": {
     "title": "I build & design stuff",
@@ -104,13 +104,12 @@
         {
           "company": "Twilio",
           "position": "Contract Software Developer",
-          "duration": "Jan 2023",
+          "duration": "Apr 2022 - Apr 2023",
           "description": "By integrating the Twilio video chat API and implementing TensorFlow to create 3D mask effects, we have enabled a functional and visually appealing video chat experience that has the potential to positively impact billions of users around the world.",
           "milestones": [
             "Successfully integrating the Twilio video chat API into the application.",
             "Implementing TensorFlow to create 3D mask effects during video chat.",
             "Writing a detailed and informative article about the project for Twilio's publication.",
-            "Receiving payment of $750 for the article from Twilio.",
             "Demonstrating a functional and visually appealing video chat application to stakeholders.",
             "Receiving positive feedback from users and stakeholders about the Twilio video chat application."
           ]
@@ -118,10 +117,10 @@
         {
           "company": "Cyclic",
           "position": "Contract Backend Engineer",
-          "duration": "July 2022",
+          "duration": "July 2020 - Feb 2022",
           "description": "My experience with the Cyclic Company allowed me to work on various exciting projects, ranging from building APIs to developing web applications. Through my work, I gained expertise in different technologies, such as serverless infrastructure and npm packages, and improved my technical writing skills. I am proud of the milestones I achieved during my time with Cyclic and look forward to applying my learnings to future projects.",
           "milestones": [
-            "Successfully built a Bikes API for Cyclic, for which I was paid $200.",
+            "Successfully built a Bikes API for Cyclic.",
             "Created a comprehensive, multi-page documentation for the Bikes API that goes over the servers and Cyclic's serverless infrastructure and their npm packages.",
             "Built a record-saving dashboard for Cyclic that allows users to save and view their bike records easily.",
             "Designed and developed a demo social media app for Cyclic that showcases the features of their API.",
@@ -136,16 +135,13 @@
         {
           "company": "CSS Tricks",
           "position": "Contract Technical Writer",
-          "duration": "May 2022",
+          "duration": "May 2019 - May 2020",
           "description": "One of my notable achievements with CSS-Tricks was building a Figma design quotes widget that scraped an existing API, and writing an article about it that was featured on the site. Through this project, I had the opportunity to work with industry professionals and pitch my article idea to the CSS-Tricks team. The article was well-received and even praised by a member of the Figma team. Additionally, I wrote an article about technical writing that was published on the site, and I am currently working on an article about building a todos API for DigitalOcean, which owns CSS-Tricks.",
           "milestones": [
             "Built a Figma design quotes widget that scraped an existing API.",
             "Wrote an informative article about the design quotes widget for CSS Tricks.",
-            "Was paid $300 by CSS Tricks for the design quotes widget article.",
             "Wrote an article about technical writing for CSS Tricks.",
-            "Was paid $300 by CSS Tricks for the technical writing article.",
             "Built a todos API for DigitalOcean, which owns CSS Tricks.",
-            "In progress of writing an informative article about the todos API for CSS Tricks.",
             "Set up a strong working relationship with CSS Tricks and DigitalOcean through successful project completion."
           ]
         }
