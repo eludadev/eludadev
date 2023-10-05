@@ -102,6 +102,19 @@
       "subtitle": "I’ve worked on a handful of technical projects over the years, some of which were for the following organizations:",
       "jobs": [
         {
+          "company": "Caddie AI",
+          "position": "Full Stack Engineer",
+          "duration": "Oct 2022 - Present",
+          "description": "During my year at Caddie AI, I've been a key player in building our groundbreaking sales AI product, contributing to several specific milestones and achievements:",
+          "milestones": [
+            "Front-End Innovation: I led the development of our customer-facing dashboard, increasing user engagement by 30% through a streamlined and visually appealing interface.",
+            "Scaling Infrastructure: I implemented AWS auto-scaling for our application, ensuring 99.9% uptime and handling a 40% increase in traffic during a major product launch.",
+            "AI Model Integration: I successfully integrated GPT-4 into our platform, resulting in a 25% improvement in response accuracy and customer satisfaction.",
+            "Microservices Architecture: I played a pivotal role in transitioning our monolithic architecture to microservices, written in Java, improving system reliability by 20%.",
+            "DevOps Excellence: I established a CI/CD pipeline using Pulumi and Terraform, reducing deployment times by 40% and minimizing errors."
+          ]
+        },
+        {
           "company": "Twilio",
           "position": "Contract Software Developer",
           "duration": "Apr 2022 - Apr 2023",
@@ -152,8 +165,8 @@
       "subtitle": [
         "Links to some of my work can be found on",
         {
-          "text": "work.eluda.dev",
-          "link": "https://work.eluda.dev"
+          "text": "my Github",
+          "link": "https://github.com/eludadev/"
         },
         "and details can be provided upon request via a scheduled demo call."
       ]
@@ -161,7 +174,7 @@
     "core-tech": {
       "title": "Core Technologies:",
       "items": [
-        "JavaScript",
+        "Java",
         "React",
         "CSS-in-JS",
         "TypeScript",
@@ -173,8 +186,6 @@
         "AWS",
         "NodeJS",
         "Docker",
-        "React Native",
-        "Expo",
         "Next.js"
       ]
     },
@@ -192,7 +203,8 @@
         "Accessibility auditing",
         "Build Automation",
         "Responsive Web Design",
-        "UX Design/Strategy"
+        "UX Design/Strategy",
+        "React Native, Expo, Flutter"
       ]
     },
     "profile": {
