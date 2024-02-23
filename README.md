@@ -9,8 +9,6 @@
 
 - 👯 I’m looking to collaborate on **front-end and back-end projects**
 
-- 📫 How to reach me: **hello@her.wtf**
-
 - ⚡ What I like to do: **I like leaning, coding, marketing, and working on new projects.**
 
 <h3 align="center">Connect with me:</h3>
