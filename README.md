@@ -17,9 +17,6 @@
 [![image](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eludadev/)
 [![image](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/eludadev)
 [![image](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hello@eluda.dev)
-<a href="https://calendly.com/eludadev/30min" target="_blank">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnm5S2NWKYca7NtqPnjhejb1k7dwt-NsYDYTyvGUj-P_Pm4_79HHE7EZPbzvJgarpu_Q&usqp=CAU" alt="calendly" height="28"/>
-</a>
 
 </div>
 
